@@ -1,43 +1,5 @@
-# Site settings
-title: My Awesome Site
-description: "A short description of your site"
-baseurl: "" # Set to "" if using root domain, else "/your-repo-name"
-url: "https://yourdomain.com" # Change this to your site's URL
-
-# Author information
-author:
-  name: "Your Name"
-  email: "you@example.com"
-
-# Build settings
-markdown: kramdown
-theme: minima
-paginate: 5
-
-# Navigation links
-nav:
-  - name: Home
-    url: "/"
-  - name: About
-    url: "/about/"
-  - name: Blog
-    url: "/blog/"
-  - name: Contact
-    url: "/contact/"
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Social media links
-social:
-  github: "your-github-username"
-  twitter: "your-twitter-handle"
-
-# Exclude files from processing
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+title: Shaw Talebi
+logo: /assets/img/headshot_circle.png
+#description: text below image
+show_downloads: true
+theme: jekyll-theme-minimal
